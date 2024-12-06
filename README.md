@@ -10,10 +10,10 @@ The complete fine-tuning process was executed on Google Colab, and the resulting
 **Deployable Model:** Hosted on Hugging Face for seamless integration into your applications.
 
 # Model Details
-**Base Model:** LLaMA-2
-**Fine-Tuning Frameworks:** PEFT and QLoRA
-**Dataset:** Diet recommendation dataset (custom-curated)
-**Hosting:** Hugging Face Model Hub (Link to the model: yousaf121/lama_dietCoach)
+**Base Model:** LLaMA-2 <br>
+**Fine-Tuning Frameworks:** PEFT and QLoRA <br>
+**Dataset:** Diet recommendation dataset (custom-curated) <br>
+**Hosting:** Hugging Face Model Hub (Link to the model: yousaf121/lama_dietCoach) <br>
 
 Installation
 Clone the repository and install the dependencies:
