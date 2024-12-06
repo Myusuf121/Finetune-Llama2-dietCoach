@@ -26,17 +26,17 @@ pip install -r requirements.txt
 **Load the Model**
 You can load the fine-tuned model directly from Hugging Face:
 
+'''python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 model_name = "yousaf121/lama_dietCoach"  # Replace with your Hugging Face model path
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
-
-# Generate diet recommendations
 input_text = "Provide a diet plan for weight loss for a 30-year-old person."
 inputs = tokenizer(input_text, return_tensors="pt")
 output = model.generate(**inputs, max_new_tokens=100)
 print(tokenizer.decode(output[0], skip_special_tokens=True))
+'''
 
 **Fine-Tuning Process**
 **Dataset Preparation:** A diet recommendation dataset was curated and preprocessed for training.
