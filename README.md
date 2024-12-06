@@ -9,7 +9,7 @@ The complete fine-tuning process was executed on Google Colab, and the resulting
 **Efficient Fine-Tuning:** Utilizes PEFT and QLoRA to optimize resource usage during fine-tuning.
 **Deployable Model:** Hosted on Hugging Face for seamless integration into your applications.
 
-**Model Details**
+# Model Details
 **Base Model:** LLaMA-2
 **Fine-Tuning Frameworks:** PEFT and QLoRA
 **Dataset:** Diet recommendation dataset (custom-curated)
